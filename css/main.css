@@ -6,6 +6,7 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -14,7 +15,72 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    background: #D8ECFF;
 }
+
+a {
+    color: #41464C;
+}
+
+h1 {
+    float: left;
+    padding-left: 2%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    background: #A7AB45;
+}
+
+.links {
+    margin-top: 3%;
+    margin-right: 2%;
+    float: right;
+    font-family: courier;
+    font-size: 90%;
+}
+
+nav {
+    margin-left: 2%;
+    float: left;
+    border: 2px solid black;
+    width: 26%;
+    font-family: courier;
+    font-size: 90%;
+    background: #E09E96;
+}
+
+section {
+    margin-left: 32%;
+    padding-right: 2%;
+    width: 66%;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    background: #6EA9DA;
+}
+
+h3 {
+    font-family: "courier";
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #DAD76E;
+}
+
+
+.article_body {
+    font-family: "courier";
+    font-size: 14px;
+}
+
+
+
+.article_footer {
+    font-family: "courier";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
